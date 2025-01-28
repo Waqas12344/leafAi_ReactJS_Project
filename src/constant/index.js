@@ -92,27 +92,32 @@ export const works=[
     {
         id:"connect",
         title:"Connect",
-        descrip:"Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories"
+        subdescrip:"Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories.",
+        descrip:"Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories. Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories."
     },
     {
-        id:"connect",
+        id:"indere",
         title:"Index",
-        descrip:""
+        subdescrip:"Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories",
+            descrip:"Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories. Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories."
     },
     {
         id:"enhace",
         title:"Enhance",
-        descrip:""
+        subdescrip:"our eEasily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories.",
+            descrip:"Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories. Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories."
     },
     {
         id:"search",
         title:"Search",
-        descrip:""
+        subdescrip:"our existing systems—Confluence, SharePoint",
+           descrip:"Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories. Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories."
     },
     {
         id:"learn",
         title:"Learn",
-        descrip:""
+        subdescrip:"Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories.",
+            descrip:"Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories. Easily integrate LeafAI Search with your existing systems—Confluence, SharePoint, and document repositories."
     }
 ]
 
