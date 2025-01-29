@@ -11,6 +11,7 @@ import Work from './Component/work'
 
 const App = () => {
   return (
+    
     <>
     <Navbar/>
     <div className='max-w-[1260px] my-10 mx-auto'>

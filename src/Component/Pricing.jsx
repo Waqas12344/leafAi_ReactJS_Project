@@ -1,7 +1,11 @@
-import React from "react";
-import { plans } from "../constant";
+import React, { useState } from "react";
+import { annualPlans, plans } from "../constant";
 
 const Pricing = () => {
+  const [billingType,setBillingType] =useState("monthly")
+
+
+  const activePlan = billingType === "monthly" ? plans: annualPlans;
   return (
     <div className="w-full lg:max-w-[1260px] mx-auto my-12">
       <div className="flex flex-col items-center justify-center mb-16">
@@ -9,11 +13,21 @@ const Pricing = () => {
         <p className="text-base lg:text-lg text-[#6D6D6D] w-full lg:w-[35%] text-center mt-4">
           Discover the power of intelligent search across your entire digital workspace.
         </p>
-        <div className="rounded-2xl bg-[#D9D9D9] flex mt-6 p-[2px] border-2 border-[#D9D9D9]">
-          <button className="text-sm lg:text-base text-black bg-white px-5 py-2 rounded-2xl font-medium">
+        <div className="rounded-3xl bg-[#D9D9D9] flex mt-6 p-[2px] border-2 border-[#D9D9D9]">
+        <button
+            className={`text-sm lg:text-base px-5 py-2 rounded-3xl font-medium transition ${
+              billingType === "monthly" ? "text-black bg-white" : "text-gray-600"
+            }`}
+            onClick={() => setBillingType("monthly")}
+          >
             Monthly billing
           </button>
-          <button className="text-sm lg:text-base text-black px-5 py-2 font-medium">
+          <button
+            className={`text-sm lg:text-base px-5 py-2 rounded-3xl font-medium transition ${
+              billingType === "annual" ? "text-black bg-white" : "text-gray-600"
+            }`}
+            onClick={() => setBillingType("annual")}
+          >
             Annual billing
           </button>
         </div>
@@ -21,7 +35,7 @@ const Pricing = () => {
 
     
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-24">
-        {plans.map((plan, index) => (
+        {activePlan.map((plan, index) => (
           <div
             key={index}
             className="bg-white flex flex-col justify-between rounded-2xl shadow-md hover:shadow-lg transition-shadow p-6"

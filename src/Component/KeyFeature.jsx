@@ -15,15 +15,15 @@ const KeyFeatures = () => {
                     </button>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 items-center justify-center p-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 items-center justify-center py-5 mx-auto">
   {keyFeatures.map((feature) => (
     <div
       key={feature.id}
-      className="flex flex-col items-center justify-center border border-gray-500 h-[271px] rounded-[22px] p-4"
+      className="flex flex-col items-center justify-center border border-gray-500 md:w-[280px] h-[271px] rounded-[22px] "
     >
       <div className="w-[32px] h-[32px] bg-[#B7DBAF] rounded-full"></div>
-      <h3 className="mt-4 text-[23px] text-[#161C2D]">{feature.title}</h3>
-      <p className="mt-4 w-[70%] text-[17px] text-[#161C2D] opacity-70 text-center">
+      <h3 className="mt-4 text-xl text-[#161C2D] text-center font-bold ">{feature.title}</h3>
+      <p className="mt-4 w-[70%] text-base text-[#161C2D] opacity-70 text-center">
         {feature.para}
       </p>
     </div>

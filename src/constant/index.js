@@ -156,3 +156,42 @@ export const plans=[
         buttonText: 'Get started for free',
       },
 ]
+export const annualPlans = [
+    {
+      name: 'Starter',
+      price: '$499/year',
+      features: [
+        'Basic search functionality',
+        'Up to 20,000 documents indexed',
+        '10 user accounts',
+        'Email support',
+      ],
+      buttonText: 'Get started for free',
+    },
+    {
+      name: 'Professional',
+      price: '$1,999/year',
+      features: [
+        'Advanced search algorithms',
+        'Up to 200,000 documents indexed',
+        '100 user accounts',
+        'Priority email support',
+        'Custom data connectors',
+      ],
+      buttonText: 'Get started for free',
+    },
+    {
+      name: 'Enterprise',
+      price: 'Custom pricing',
+      features: [
+        'AI-powered predictive search',
+        'Unlimited document indexing',
+        'Unlimited user accounts',
+        '24/7 dedicated support',
+        'Custom integration solutions',
+        'Onboarding assistance',
+      ],
+      buttonText: 'Get started for free',
+    },
+  ];
+  
