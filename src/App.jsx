@@ -14,17 +14,17 @@ const App = () => {
     
     <>
     <Navbar/>
-    <div className='max-w-[1260px] my-10 mx-auto'>
+    <div className='max-w-[1260px]  mx-auto'>
       <HeroSection/>
       <KeyFeatures/>
     </div>
-    <div className="bg-[#F9FAF9] w-full py-20">
+    <div className="bg-[#F9FAF9] w-full ">
     <About/>
     </div>
-    <div className='max-w-[1260px] my-10 mx-auto'>
+    <div className='max-w-[1260px]  mx-auto'>
       <Features/>
     </div>
-    <div className="bg-[#F9FAF9] w-full py-20">
+    <div className="bg-[#F9FAF9] w-full">
     <Work/>
     </div>
 

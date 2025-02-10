@@ -13,7 +13,7 @@ const Pricing = () => {
         <p className="text-base lg:text-lg text-[#6D6D6D] w-full lg:w-[35%] text-center mt-4">
           Discover the power of intelligent search across your entire digital workspace.
         </p>
-        <div className="rounded-3xl bg-[#D9D9D9] flex mt-6 p-[2px] border-2 border-[#D9D9D9]">
+        <div className="rounded-3xl bg-[#D9D9D926] flex mt-6 p-[2px] border-2 border-[#D9D9D9]">
         <button
             className={`text-sm lg:text-base px-5 py-2 rounded-3xl font-medium transition ${
               billingType === "monthly" ? "text-black bg-white" : "text-gray-600"

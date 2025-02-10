@@ -1,4 +1,4 @@
- 
+ import {AiIcon, boostIcon, chainImg, puzzelImg, searchIcon, secureIcon, unifiedSearch,analysisImg,commentImg} from '../assets'
 export const navLinks =[
     {
         id:'home',
@@ -25,25 +25,25 @@ export const navLinks =[
 export const keyFeatures=[
     {
         id:"1",
-        img:"",
+        img:AiIcon,
         title:"AI-Driven Insights",
         para:"With lots of unique blocks, you can easily build a page without coding. "
     },
     {
         id:"12",
-        img:"",
+        img:searchIcon,
         title:"Unified Search Experience",
         para:"With lots of unique blocks, you can easily build a page without coding. "
     },
     {
         id:"2",
-        img:"",
+        img:boostIcon,
         title:"Boosted Productivity",
         para:"With lots of unique blocks, you can easily build a page without coding. "
     },
     {
         id:"3",
-        img:"",
+        img:secureIcon,
         title:"Secure & Complaint",
         para:"With lots of unique blocks, you can easily build a page without coding. "
     }
@@ -52,37 +52,37 @@ export const keyFeatures=[
 export const Feature=[
     {
         id:"1233534",
-        img:'',
+        img:unifiedSearch,
         title:"Unified Search",
         para:"Search across Confluence, SharePoint, and all your documents from a single interface. Consistent experience regardless of where your information.",
     },
     {
         id:"125643",
-        img:"",
+        img:puzzelImg,
         title:"AI-Powered Relevance",
         para:"Machine learning algorithms that understand context and intent.Results that improve over time based on your organization's usage patterns",
     },
     {
         id:"17523",
-        img:"",
+        img:commentImg,
         title:"Smart Reviews",
         para:"AI-generated summaries of lengthy documents. Quick view of key information without opening files", 
     },
     {
         id:"12533",
-        img:"",
+        img:chainImg,
         title:"Natural Language Processing",
         para:"Ask questions in plain English and get accurate answers. Understand complex queries and industry-specific jargon",
     },
     {
         id:"13223",
-        img:"",
+        img:puzzelImg,
         title:"Personalized Results",
         para:"Tailored search results based on your role, projects, and past interactions.  Recommended content that anticipates your needs",
     },
     {
         id:"1232",
-        img:"",
+        img:analysisImg,
         title:"Advanced Analytics",
         para:"Gain insights into your organization's knowledge base.  Identify knowledge gaps and popular resources ",
     }

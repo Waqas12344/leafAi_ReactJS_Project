@@ -14,21 +14,21 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex items-center justify-between max-w-[1260px] mx-auto my-5 px-5 lg:px-0'>
+    <div className='flex items-center justify-between max-w-[1260px] mx-auto my-[40px] px-3 lg:px-0'>
       <div className='flex items-center w-[90px] md:w-[111px] '>
         <img src={logo} alt="" />
       </div>
-      <div className='hidden md:flex gap-6'>
-        <ul className='flex items-center justify-between gap-6'>
+      <div className='hidden md:flex gap-[48px]'>
+        <ul className='flex items-center justify-between gap-[48px]'>
           {
             navLinks.map((item, index) => (
-              <li key={index} >
+              <li key={index} className='hover:text-[#317B22]' >
                 <a href='#' className='text-base'> {item.title}</a>
               </li>
             ))
           }
         </ul>
-        <button className='bg-[#317B22] py-[12px] px-[20px] rounded text-[#ffffff]'>Get Started</button>
+        <button className='bg-[#317B22] py-[12px] px-[22px] text-[16px] rounded-[7px] text-[#ffffff]'>Get Started</button>
       </div>
       {/* mobile view start */}
 

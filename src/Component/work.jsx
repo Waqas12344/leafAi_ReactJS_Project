@@ -1,5 +1,4 @@
 import React, {  useState } from "react";
-import { MdKeyboardArrowDown } from "react-icons/md";
 import { works } from "../constant";
 import { workImg } from "../assets";
 import { IoIosArrowForward } from "react-icons/io";
