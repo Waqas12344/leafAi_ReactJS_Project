@@ -10,7 +10,7 @@ const KeyFeatures = () => {
                     <h2 className=' text-2xl lg:text-[48px] font-[700] font-[Outfit] w-[80%]'>Let's Explore our Top Key Features</h2>
                 </div>
                 <div className='w-full md:w-1/2 flex flex-col  gap-3'>
-                    <p className='text-[#333333] text-[18px] opacity-[70%] w-[70%]'>LeafAI Search sprouted from a simple idea: make enterprise knowledge as easy to find as a Google search</p>
+                    <p className='text-[#333333] text-[18px] opacity-[70%] '>LeafAI Search sprouted from a simple idea: make enterprise knowledge as easy to find as a Google search</p>
                    <div className='mt-[21px]'>
                    <Button name="Get Started" />
                    </div>

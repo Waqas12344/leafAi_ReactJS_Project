@@ -3,6 +3,7 @@ import { logo } from '../assets'
 import { navLinks } from '../constant'
 import { CiMenuBurger } from 'react-icons/ci';
 import { RxCross1 } from 'react-icons/rx';
+import Button from './reusable/Button';
 
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </div>
       <div className='hidden md:flex gap-[48px]'>
-        <ul className='flex items-center justify-between gap-[48px]'>
+        <ul className='flex items-center justify-between md:gap-[30px] lg:gap-[48px]'>
           {
             navLinks.map((item, index) => (
               <li key={index} className='hover:text-[#317B22]' >
@@ -41,13 +42,15 @@ const Navbar = () => {
           <ul>
             {
               navLinks.map((item, index) => (
-                <li key={index} className='py-4'>
+                <li key={index} className='py-4 hover:bg-[#317B22]'>
                   <a href='#' className='text-base'> {item.title}</a>
                 </li>
               ))
             }
           </ul>
-          <button className='bg-[#317B22] py-[12px] px-[20px] rounded text-[#ffffff]'>Get Started</button>
+        <div>
+        <Button name="Get Started" />
+        </div>
         </div>
       )}
       {/* mobile view end */}

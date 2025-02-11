@@ -14,21 +14,21 @@ const App = () => {
     
     <>
     <Navbar/>
-    <div className='max-w-[1260px]  mx-auto'>
+    <div className='max-w-[1260px] px-3 mx-auto'>
       <HeroSection/>
       <KeyFeatures/>
     </div>
-    <div className="bg-[#F9FAF9] w-full ">
+    <div className="bg-[#F9FAF9] px-3 w-full ">
     <About/>
     </div>
-    <div className='max-w-[1260px]  mx-auto'>
+    <div className='max-w-[1260px] px-3 mx-auto'>
       <Features/>
     </div>
-    <div className="bg-[#F9FAF9] w-full">
+    <div className="bg-[#F9FAF9] w-full px-3">
     <Work/>
     </div>
 
-    <div className='max-w-[1260px] my-10 mx-auto px-5'>
+    <div className='max-w-[1260px] my-10 mx-auto px-3'>
       <Pricing/>
       <Collatorate/>
       <Footer/>
